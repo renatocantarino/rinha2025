@@ -1,0 +1,19 @@
+@rinhabeckend2025_HostAddress = http://localhost:8001
+@guid = {{guid}}
+
+
+POST {{rinhabeckend2025_HostAddress}}/payments
+Accept: application/json
+Content-Type: application/json
+
+{
+  "CorrelationId": "7FB24F4D-6D9C-4A99-92CB-50624444AE1A",
+  "Amount": 50
+}
+
+###
+
+GET {{rinhabeckend2025_HostAddress}}/todos/1
+Accept: application/json
+
+###
