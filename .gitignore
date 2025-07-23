@@ -41,9 +41,7 @@ TestResults/
 *.mdf
 *.ldf
 
-# Docker
-**/Dockerfile*
-**/docker-compose*
+
 
 # OS generated files
 .DS_Store
