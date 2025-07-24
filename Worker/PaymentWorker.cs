@@ -30,8 +30,7 @@ public class PaymentWorker(
             while (paymentQueue.Reader.TryRead(out var paymentRequest))
             {
                 try
-                {
-                    logger.LogInformation("Processing payment for correlation {CorrelationId}", paymentRequest.CorrelationId);
+                {                    
                     await paymentService.ProcessPaymentAsync(paymentRequest, stoppingToken);
                 }
                 catch (Exception ex)

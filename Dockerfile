@@ -32,4 +32,4 @@ COPY --from=build /app .
 EXPOSE 8080
 
 # Set the entrypoint to the compiled binary
-ENTRYPOINT ["rinhabeckend2025.dll"]
+ENTRYPOINT ["./rinhabeckend2025"]

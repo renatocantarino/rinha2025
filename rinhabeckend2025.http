@@ -1,4 +1,4 @@
-@rinhabeckend2025_HostAddress = http://localhost:8001
+@rinhabeckend2025_HostAddress = http://localhost:9999/payments
 @guid = {{guid}}
 
 
